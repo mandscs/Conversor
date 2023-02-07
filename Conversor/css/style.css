@@ -14,36 +14,32 @@ body {
   padding: 20px;
 }
 
-.page-title {
-  color: #ffffff;
-  margin: 0 0 5px;
-}
-
-.page-subtitle {
-  color: #ffffff;
-  margin-top: 5px;
-}
-
-.page-logo {
-  width: 200px;
-}
-
-.alura-logo {
-  width: 40px;
-  position: absolute;
-  top: 10px;
-  right: 10px;
-}
-
 body > img {
   margin: 0 10px;
 }
 
+h1{
+    text-shadow: 4px 4px 4px;
+}
 img {
-  max-height: 250px;
+  max-height: 220px;
 }
 
-input {
+input{
   padding: 15px;
   outline: none;
+  border-radius: 10px;
+  width: 50%;
+}
+
+button{
+  width: 150px;
+  height: 30px;
+  border-radius: 7px;
+}
+
+button:hover{
+  background-color: #505050;
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
